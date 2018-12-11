@@ -1,0 +1,123 @@
+
+/*wrapper element  */
+
+	#wrapper {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+    background-color: rgb(172, 189, 219);
+	min-width: 700px;
+	max-width: 1500px;
+	box-shadow: 10px 10px 5px #888888;
+	
+}
+/* Universal Selector */
+*
+{
+	box-sizing; border-box;
+}
+/* body element - sets background to white, text to grey */
+	body {
+    background-color: #FFFFFF; 
+ 	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	background-image: url(images/background.jpg);
+	font-size: 100%;
+}
+header, nav, main, footer
+{
+	display: block;
+}
+/* h1 element - sets background color to black, text to white */
+	h1 {
+/*    background-color : #000033; */
+    background-color : rgb(122, 136, 166);
+	color : #FFFFFF;
+	font-family : Georgia, sans-serif;
+    line-height : 200%;
+    text-align: center;
+	background-image: url(images/fvcc.png);
+	background-repeat: no-repeat;
+     background-position: 99% 45%;
+	background-size: 58px 58px; 
+	padding-left:20px;
+	margin-bottom: 0;
+	text-indent: .5em;  
+}
+
+/* nav element - sets background color to sky blue, text to bold */
+	nav {
+	width: 200px;
+	font-weight : bold;
+	padding: 10px 0px 0px 0px; 
+	text-decoration: none;
+    float: left;
+    line-height: 200%;
+}
+
+/* main element - sets background to white, text to grey */
+	main {
+    background-color: rgb(239, 242, 247);
+	margin-left: 200px;
+	display: block;
+	padding: 1px 0px 1px 0px;
+	min-height: 300px;
+}
+/* h2 element  - sets text color to medium blue*/
+	h2 {
+	background-color : rgb(122, 136, 166);
+	color : #FFFFFF;
+	font-family : Georgia, sans-serif;
+	text-indent: 50px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+/* ul - problem is that this one remove my ul from the main body */ 
+nav ul 
+{
+	list-style-type: none;
+	margin: 1em 1em 0px 0px;
+	padding-left: 5px;
+} 
+td {
+    text-align: left;
+    padding: 4px;
+}
+th {
+    background-color: rgb(180, 194, 221);
+    color: white;
+    text-align: center;
+    padding: 4px;
+} 
+/* table 
+tr {
+	margin-top: 1px;
+	margin-bottom: 0px;
+} */
+	
+/* unvisited link */
+a:link {
+    color: #000033;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #6A457F;
+}
+/* footer element */
+footer
+{
+	background-color: #ffffff;
+	font-size:.70em;
+	font-style:italic;
+	text-align: center;
+	padding: 10px;
+	margin-left: 170px;
+}
+
